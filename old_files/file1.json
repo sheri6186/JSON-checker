@@ -1,0 +1,23 @@
+{
+    "fruits": [
+      {
+        "name": "Apple",
+        "color": "Red",
+        "price_per_kg": 3.5,
+        "is_seasonal": false
+      },
+      {
+        "name": "Mango",
+        "color": "Yellow",
+        "price_per_kg": 5.0,
+        "is_seasonal": true
+      },
+      {
+        "name": "Banana",
+        "color": "Yellow",
+        "price_per_kg": 1.2,
+        "is_seasonal": false
+      }
+    ]
+  }
+  

@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch JSON Checker",
+      "program": "${workspaceFolder}/${input:programPath}",
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "pickString",
+      "id": "programPath",
+      "description": "Select the entry point for your program",
+      "options": [
+        "json-checker.js",
+        "__tests__/json-checker.test.js"
+      ]
+    }
+  ]
+}
