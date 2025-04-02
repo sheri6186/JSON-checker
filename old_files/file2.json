@@ -1,0 +1,11 @@
+{
+    "fruits": [
+      {
+        "name": "Apple",
+        "color": "Red",
+        "price_per_kg": 3.5,
+        "is_seasonal": false
+      }
+    ]
+  }
+  
