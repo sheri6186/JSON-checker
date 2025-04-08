@@ -16,38 +16,26 @@
 </head>
 <body>
     <h1>JSON Diff Report</h1><h2>File: file1.json</h2><table>
+                <tr><th>Key Path</th><th>Old Value</th><th>New Value</th></tr><tr><td colspan='3'>No differences found.</td></tr></table><h2>File: file2.json</h2><table>
                 <tr><th>Key Path</th><th>Old Value</th><th>New Value</th></tr>
                 <tr>
-                    <td class="key">fruits[0].name</td>
-                    <td class="old">"Apple"</td>
-                    <td class="new">"Banana"</td>
+                    <td class="key">fruits[name=Apple]</td>
+                    <td class="old">{"name": "Apple", "color": "Red", "price_per_kg": 3.5, "is_seasonal": true}</td>
+                    <td class="new">"<Missing>"</td>
                 </tr>
                 <tr>
-                    <td class="key">fruits[1].name</td>
-                    <td class="old">"Mango"</td>
-                    <td class="new">"Apple"</td>
-                </tr>
-                <tr>
-                    <td class="key">fruits[2].name</td>
-                    <td class="old">"Banana"</td>
-                    <td class="new">"Mango"</td>
-                </tr></table><h2>File: file2.json</h2><table>
-                <tr><th>Key Path</th><th>Old Value</th><th>New Value</th></tr>
-                <tr>
-                    <td class="key">fruits[0].name</td>
-                    <td class="old">"Apple"</td>
-                    <td class="new">"stree"</td>
-                </tr>
-                <tr>
-                    <td class="key">fruits[0].is_seasonal</td>
-                    <td class="old">true</td>
-                    <td class="new">false</td>
+                    <td class="key">fruits[name=stree]</td>
+                    <td class="old">"<Missing>"</td>
+                    <td class="new">{"name": "stree", "color": "Red", "price_per_kg": 3.5, "is_seasonal": false}</td>
                 </tr></table><h2>File: file3.json</h2><table>
                 <tr><th>Key Path</th><th>Old Value</th><th>New Value</th></tr>
                 <tr>
-                    <td class="key">fruits[0].name</td>
-                    <td class="old">"Banana"</td>
-                    <td class="new">"ok"</td>
-                </tr></table>
-</body>
-</html>
+                    <td class="key">fruits[name=ok]</td>
+                    <td class="old">"<Missing>"</td>
+                    <td class="new">{"name": "ok", "color": "Yellow", "price_per_kg": 1.2, "is_seasonal": false}</td>
+                </tr>
+                <tr>
+                    <td class="key">fruits[name=Banana]</td>
+                    <td class="old">{"name": "Banana", "color": "Yellow", "price_per_kg": 1.2, "is_seasonal": false}</td>
+                    <td class="new">"<Missing>"</td>
+                </tr></table></body></html>
