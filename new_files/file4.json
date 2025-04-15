@@ -1,0 +1,35 @@
+[
+  {
+    "name": "p_1000413087.jpg",
+    "attachmentType": "Primary",
+    "mimeType": "image/jpeg",
+    "primary": true,
+    "url": "https://images.qp-gcp.homedepot.ca/productimages/p_1000413087.jpg",
+    "attachmentFormat": "Desktop",
+    "startDate": "2025-02-03T06:34:00Z"
+  },
+  {
+    "name": "TestImage1.jpg",
+    "attachmentType": "Gallery10",
+    "mimeType": "application/pdf",
+    "primary": false,
+    "startDate": "2025-01-29T08:43:00Z"
+  },
+  {
+    "name": "Additional_10.jpg",
+    "attachmentType": "Primary",
+    "mimeType": "image/jpeg",
+    "tag": "6170186618001; 6200570017001",
+    "primary": false,
+    "url": "https://images.qp-gcp.homedepot.ca/productimages/p_1000100107.jpg",
+    "startDate": "2025-01-15T21:08:00Z"
+  },
+  {
+    "name": "TestImage1.jpg",
+    "attachmentType": "Gallery10",
+    "mimeType": "application/pdf",
+    "tag": "6170186618001; 6200570017001",
+    "primary": false,
+    "startDate": "2025-01-29T08:43:00Z"
+  }
+]

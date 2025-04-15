@@ -123,7 +123,7 @@ from pathlib import Path
 import webbrowser
 
 # Base paths
-base_path = Path.home() / 'Documents' / 'JSON-checker'
+base_path = Path("c:/JSON-checker")
 old_dir = base_path / 'old_files'
 new_dir = base_path / 'new_files'
 output_dir = base_path / 'html_reports'
